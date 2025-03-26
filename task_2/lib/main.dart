@@ -35,9 +35,9 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text(
           "Lab Task 2",
           style: TextStyle(
-            fontFamily: 'Nunito',  // Apply Nunito font family
-            fontWeight: FontWeight.bold,  // Bold weight for AppBar title
-            fontSize: 24,  // Set font size for AppBar title
+            fontFamily: 'Nunito',  
+            fontWeight: FontWeight.bold,  
+            fontSize: 24,  
           ),
         ),
         backgroundColor: Colors.indigo[400],
@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Text(
               displayText,
               style: TextStyle(
-                fontFamily: 'Nunito',  // Apply Nunito font family
+                fontFamily: 'Nunito', 
                 fontWeight: FontWeight.normal,  // Regular weight for body text
                 fontSize: 20,  // Set font size for body text
                 color: Colors.white,  // Text color
